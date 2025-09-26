@@ -3,6 +3,7 @@ from watsonx_client import WatsonXClient
 
 
 def main():
+    st.run(port=8501)
     st.set_page_config(
         page_title="UPS Agreements Assistant",
         page_icon="💬",
